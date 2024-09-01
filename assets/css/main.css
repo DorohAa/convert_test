@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #040491c0;
+  color: white;
+}
+
+/* slide-down */
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 0.3s ease-out;
+}
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+div#_nuxt {
+  min-height: 100dvh;
+}
